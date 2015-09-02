@@ -1,0 +1,14 @@
+{
+    "name": "ingenious/jquery-validator",
+    "description": "Custom js form validation class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Bloomstrom",
+            "email": "jeremy@in.genio.us"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
