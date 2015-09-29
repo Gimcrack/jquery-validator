@@ -10,7 +10,7 @@
 
 
 	'use strict';
-	$.fn.validator = function(frm) {
+	$.validator = function(frm) {
 
 
 		//initialize values
@@ -710,7 +710,5 @@
 
 	}; // end validator class
 
-	// add it to global scope.
-	$.validator = $.fn.validator;
 
 })($); // end closure
