@@ -83,7 +83,7 @@
 			 *   validateForm
 			 *
 			 *  Iterates through all the form
-			 *  elements with a validType defined
+			 *  elements with a data-validType defined
 			 *
 			 **  **  **  **  **  **  **  **  **  **/
 			validateForm : function() {
@@ -125,7 +125,7 @@
 			 **  **  **  **  **  **  **  **  **  **/
 			validateField : function($elm) {
 
-				var cats  = $elm.attr('validType').split(', ');
+				var cats  = $elm.attr('data-validType').split(', ');
 				var type = $elm.attr('type');
 				var elmValid = false;
 				var val = $.isArray( $elm.val() ) ? $elm.val() : !! $elm.val() ? $elm.val().trim() : '';
@@ -137,7 +137,7 @@
 				}
 
 				$.each(cats, function(i,cat) {
-					console.log('Testing element validType=' + cat);
+					console.log('Testing element data-validType=' + cat);
 					switch (cat) {
 
 						case 'Anything' :
@@ -643,7 +643,7 @@
 				var $elmid = $elm.attr('id');
 				var $label = $("label[for='"+$elmid+"']").html();
 				var val = $.isArray( $elm.val() ) ? $elm.val() : !! $elm.val() ? $elm.val().trim() : '';
-				//var $cat = arguments[1] || $elm.attr('validType');
+				//var $cat = arguments[1] || $elm.attr('data-validType');
 				var $err_index = -1;
 				console.log($elm[0].nodeName + ' ' + $elm.attr('name') + ' invalid ');
 				console.log($elm.closest('.form_element'));
