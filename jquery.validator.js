@@ -6,11 +6,11 @@
  *  Jeremy Bloomstrom | jeremy@in.genio.us
  *
  */
-;(function($) {
+;(function($,window) {
 
 
 	'use strict';
-	$.validator = function(frm) {
+	validator = function(frm) {
 
 
 		//initialize values
@@ -710,5 +710,6 @@
 
 	}; // end validator class
 
-
-})($); // end closure
+	window.validator = validator;
+	
+})($,window); // end closure
