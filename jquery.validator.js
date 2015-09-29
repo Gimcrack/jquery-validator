@@ -711,5 +711,6 @@
 	}; // end validator class
 
 	// add it to global scope.
+	$.validator = $.fn.validator;
 
 })($); // end closure
