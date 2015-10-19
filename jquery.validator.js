@@ -10,7 +10,7 @@
 
 
 	'use strict';
-	validator = function(frm) {
+	var validator = function(frm) {
 
 
 		//initialize values
@@ -711,5 +711,5 @@
 	}; // end validator class
 
 	window.validator = validator;
-	
+
 })($,window); // end closure
