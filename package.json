@@ -1,6 +1,6 @@
 {
   "name": "@ingenious/jquery-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom jquery form validator",
   "main": "jquery.validator.module.js",
   "scripts": {
