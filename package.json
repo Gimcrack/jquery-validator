@@ -1,0 +1,26 @@
+{
+  "name": "jquery-validator",
+  "version": "1.0.0",
+  "description": "Custom jquery form validator",
+  "main": "jquery.validator.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gimcrack/jquery-validator.git"
+  },
+  "keywords": [
+    "jquery",
+    "form",
+    "validator",
+    "validation",
+    "client-validation"
+  ],
+  "author": "Jeremy Bloomstrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gimcrack/jquery-validator/issues"
+  },
+  "homepage": "https://github.com/Gimcrack/jquery-validator#readme"
+}
