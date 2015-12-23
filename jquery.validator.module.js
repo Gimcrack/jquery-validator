@@ -7,7 +7,7 @@
  *
  */
 'use strict';
-modules.export = function(frm) {
+module.exports = function(frm) {
 
 		//initialize values
 		this.errMsg = {
