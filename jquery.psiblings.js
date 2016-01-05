@@ -1,7 +1,7 @@
 /**
  *  First look through the element's siblings, then go up a level and repeat
  */
-(function( $ ){
+;(function( $ ){
    $.fn.psiblings = function(search) {
         // Get the current element's siblings
         var siblings = this.siblings(search);
